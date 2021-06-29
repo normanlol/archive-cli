@@ -1,6 +1,6 @@
 {
   "name": "archive-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Archive webpages to the Wayback Machine in the terminal.",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,6 @@
   },
   "bin": {
     "archive": "cli.js"
-  }
+  },
+  "devDependencies": {}
 }
