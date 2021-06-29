@@ -1,0 +1,34 @@
+{
+  "name": "archive-cli",
+  "version": "1.0.0",
+  "description": "Archive webpages to the Wayback Machine in the terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanlol/archive-cli.git"
+  },
+  "keywords": [
+    "archive",
+    "archive.org",
+    "cli",
+    "terminal"
+  ],
+  "author": "normanlol",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/normanlol/archive-cli/issues"
+  },
+  "homepage": "https://github.com/normanlol/archive-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cheerio": "*",
+    "got": "^11.8.2",
+    "ora": "^5.4.1"
+  },
+  "bin": {
+    "archive": "cli.js"
+  }
+}
